@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "twine"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "myi"
+name = "myi-cli"
 version = "1.0.0"
 description = "Real-time per-second income tracker with beautiful terminal UI"
 readme = "README.md"
