@@ -19,6 +19,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
+        rm -rf dist build *.egg-info
         pip install build twine
     
     - name: Build package
