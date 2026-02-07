@@ -3,8 +3,8 @@ requires = ["setuptools>=45", "wheel", "twine"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "myinfopro"
-version = "1.0.0"
+name = "myi"
+version = "1.0.1"
 description = "Real-time per-second income tracker with beautiful terminal UI"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -38,5 +38,5 @@ dependencies = [
 myi = "myi.cli:cli"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/myi"
-Issues = "https://github.com/yourusername/myi/issues"
+Homepage = "https://github.com/mrnoor-in/myi"
+Issues = "https://github.com/mrnoor-in/myi/issues"
